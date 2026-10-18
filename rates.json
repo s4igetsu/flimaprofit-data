@@ -1,0 +1,42 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-10-18",
+  "platforms": {
+    "mercari": { "feeRate": 0.10 }
+  },
+  "categories": [
+    {
+      "id": "mini",
+      "name": "小型(封筒/アクセ等)",
+      "services": [
+        { "name": "ゆうパケットポストmini", "carrier": "日本郵便", "shippingFee": 160, "packageFee": 20, "totalCost": 180, "sizeDesc": "長辺21.6cm×短辺17.8cm以内 / 重さ2kgまで" }
+      ]
+    },
+    {
+      "id": "a4_thin",
+      "name": "A4・厚さ3cm以内(本/Tシャツ等)",
+      "services": [
+        { "name": "ネコポス", "carrier": "ヤマト運輸", "shippingFee": 210, "packageFee": 0, "totalCost": 210, "sizeDesc": "A4サイズ / 厚さ3cm以内 / 重さ1kgまで" },
+        { "name": "ゆうパケットポスト", "carrier": "日本郵便", "shippingFee": 215, "packageFee": 5, "totalCost": 220, "sizeDesc": "3辺合計60cm以内 / 厚さ3cm目安 / 重さ2kgまで" },
+        { "name": "ゆうパケット", "carrier": "日本郵便", "shippingFee": 230, "packageFee": 0, "totalCost": 230, "sizeDesc": "3辺合計60cm以内 / 厚さ3cm以内 / 重さ1kgまで" }
+      ]
+    },
+    {
+      "id": "compact",
+      "name": "小型箱・厚さ5〜7cm(コスメ/厚手服等)",
+      "services": [
+        { "name": "宅急便コンパクト", "carrier": "ヤマト運輸", "shippingFee": 450, "packageFee": 70, "totalCost": 520, "sizeDesc": "専用薄型BOXまたは専用BOX(厚さ5cm) / 重さ無制限" },
+        { "name": "ゆうパケットプラス", "carrier": "日本郵便", "shippingFee": 455, "packageFee": 65, "totalCost": 520, "sizeDesc": "専用箱(厚さ7cm) / 重さ2kgまで" }
+      ]
+    },
+    {
+      "id": "size60",
+      "name": "60サイズ(靴/小型家電等)",
+      "services": [
+        { "name": "エコメルカリ便", "carrier": "SBS即配便等", "shippingFee": 730, "packageFee": 0, "totalCost": 730, "sizeDesc": "3辺合計100cm以内まで一律料金" },
+        { "name": "らくらくメルカリ便 60サイズ", "carrier": "ヤマト運輸", "shippingFee": 750, "packageFee": 0, "totalCost": 750, "sizeDesc": "3辺合計60cm以内 / 重さ2kgまで" },
+        { "name": "ゆうゆうメルカリ便 60サイズ", "carrier": "日本郵便", "shippingFee": 750, "packageFee": 0, "totalCost": 750, "sizeDesc": "3辺合計60cm以内 / 重さ2kgまで" }
+      ]
+    }
+  ]
+}
